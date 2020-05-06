@@ -10,4 +10,5 @@ provider:
 
 functions:
   hello:
+    name: todo-apisachin
     handler: handler.hello
