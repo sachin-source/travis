@@ -11,4 +11,4 @@ provider:
 functions:
   hello:
     name: nameissachin
-    handler: handler.hello
+    handler: index
