@@ -10,5 +10,5 @@ provider:
 
 functions:
   hello:
-    name: namessachin
+    name: namesachin
     handler: index.handler
