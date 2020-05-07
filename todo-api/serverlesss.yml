@@ -1,0 +1,14 @@
+service: todo-api
+
+custom:
+  stage: ${opt:stage, self:provider.stage}
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  region: eu-west-1
+
+functions:
+  hello:
+    name: nameissachin
+    handler: index.handler
